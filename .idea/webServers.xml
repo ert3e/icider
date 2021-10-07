@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="6c107552-63ca-4f8e-b3ba-860a3ea2fbe6" name="eplss" url="http://176.111.49.48">
+        <fileTransfer rootFolder="/www/icider.com.ua" host="176.111.49.48" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

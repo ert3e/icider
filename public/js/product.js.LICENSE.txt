@@ -1,0 +1,5 @@
+/*!
+ * vue-swal v1.0.0
+ * (c) 2018 Antério Vieira
+ * Released under the MIT License.
+ */

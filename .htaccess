@@ -1,0 +1,11 @@
+Options +FollowSymLinks -Indexes
+RewriteEngine On
+
+RewriteRule ^$ public/ [L]
+RewriteRule ((?s).*) public/$1 [L]
+RewriteCond %{HTTP:Authorization} .
+RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*)index.php$ /$1 [R=301,L]
